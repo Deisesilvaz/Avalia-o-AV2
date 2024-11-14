@@ -1,0 +1,115 @@
+:root {
+    --black: #000000;
+    --white: #fffdfc;
+    --azul: #001e4d;
+    --vermelho: #ff9393;
+    --verde: #9aeabc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppings', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--azul);
+    color: var(--white);
+}
+
+header {
+    margin: 3%;
+    align-items: center;
+    text-align: center;
+}
+
+#titulo {
+    font-size: 70px;
+}
+
+#subtitulo {
+    font-size: 20px;
+}
+
+#descrição {
+    font-size: 18px;
+    width: 60%;
+    justify-self: center;
+    margin: 2%;
+}
+
+main {
+    justify-items: center;
+}
+
+.app {
+    background: var(--white);
+    width: 90%;
+    max-width: 600px;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1 {
+    font-size: 25px;
+    color: var(--black);
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.app img {
+    padding-top: 5%;
+    width: 400px;
+    height: 250px;   
+    display: block;
+    margin: auto;
+}
+
+.app p {
+    padding: 5%;
+    font-size: 15px;
+    color: var(--black);
+}
+
+.app h2 {
+    font-size: 18px;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.botao {
+    background: var(--white);
+    color: var(--black);
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#botao-proximo {
+    background: var(--azul);
+    color: var(--white);
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correto {
+    background: var(--verde);
+}
+
+.incorreto {
+    background: var(--vermelho);
+}
